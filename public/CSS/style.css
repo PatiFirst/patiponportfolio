@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Rubik:wght@300;400&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Rubik', sans-serif; */
+body{
+    background-color: rgb(247, 242, 242);
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+/* ==== NAVBAR ==== */
+.navbar .navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.box_item{
+    color: black;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+/* ==== CONTENT ==== */
+.cate_container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.box_content{
+    border-radius: 25px;
+    position: relative;
+    background-color: white;
+}
+.box_content:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+.carousel.slide{
+    width: 150px;
+}
+.profile_img{
+    height: 150px;
+    width: 150px;
+}
+#name{
+    font-size: 34px;
+}
+.btn_resume{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: border .2s ease-out;
+    cursor: pointer;
+}
+.btn_resume:hover, .btn_toproject:hover{
+    border: 3px solid rgba(0, 0, 0, .1);
+    color: black;
+}
+#facebook{
+    width: 125px;
+    height: 125px;
+    font-size: 36px;
+    color: #1778F2;
+    transition: color .2s ease-out;
+}
+.fa-facebook, .fa-instagram{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#facebook:hover{
+    font-size: 48px;
+    color: white;
+    background-color: #1778F2;
+}
+#ig{
+    width: 125px;
+    height: 125px;
+    font-size: 36px;
+    transition: color .2s ease-out;
+    color: circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf;
+}
+#ig:hover{
+    color: white;
+    font-size: 48px;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+#Heartcir{
+    background: url(../img/HeartCir\ 25_11_2563\ 0_37_01.png) no-repeat center;
+    background-size: 250%;
+    position: relative;
+    height: 300px;
+}
+#ARPro{
+    background: url(../img/ARProject.png) no-repeat center;
+    background-size: 150%;
+    height: 300px;
+}
+#Rescape{
+    background: url(../img/NSC_Game.jpg) no-repeat center;
+    background-size: 250%;
+    height: 300px;
+}
+#SweetBoy{
+    background: url(../img/SBPoster.jpg) no-repeat center;
+    background-size: 100%;
+    height: 300px;
+}
+#ShirBand{
+    background: url(../img/Shirband.jpg) no-repeat bottom;
+    background-size: 250%;
+    height: 300px;
+}
+#mail{
+    height: 150px;
+}
+.btn_toproject{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 50px;
+    padding: 5px 20px;
+    transition: border .2s ease-out;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.btn_toproject:hover{
+    border: 3px solid rgba(0, 0, 0, .1);
+    color: black;
+}
+.fa-envelope{
+    font-size: 36px;
+}
+
+#edu .edu-topic {
+    font-size: 100px;
+}
+#edu .edu_title {
+    font-size: 26px;
+}
+#edu .edu_depart {
+    font-size: 18px;
+}
+#edu .edu_desc{
+    font-size: 14px;
+}
+#skill i{
+    font-size: 36px;
+    margin-right: 16px;
+}
+
+
+
+
+@media screen and (max-width: 425px){
+    .profile_img{
+        height: 100px;
+        width: 100px;
+    }
+    .btn_resume{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
